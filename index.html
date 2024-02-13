@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #333;
+        }
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-nav .nav-link {
+            color: blue;
+        }
+
+        .navbar-custom .btn-outline-success {
+            color: green; 
+            border-color: greenyellow; 
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">INICIO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  INFORMACION
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/Honduras">Honduras</a></li>
+                  <li><a class="dropdown-item" href="https://www.espaciohonduras.net/honduras-honduras/heroes-nacionales-de-honduras-proceres-de-honduras">Proceres</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://datosmacro.expansion.com/paises/honduras">Mas sobre Honduras</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#sobre" tabindex="-1" aria-disabled="true">SOBRE NOSOTROS</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CEDEÑO</h5>
+              <p> Las mejores playas del departamentode Choluteca están en Cedeño</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SAN LORENZO</h5>
+              <p>San Lorenzo es la ciudad más activa del departamento de Valle.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ROATAN</h5>
+              <p>Las Islas de la Bahía, con Roatán como mayor de ellas ofrece un espectáculo natural inmejorable y la posibilidad de todo tipo de actividades turísticas.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script>
+        document.getElementById('carouselExampleCaptions').carousel({
+            interval: 3       });
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 fw-bold">GUIANDOTE POR HONDURAS</h1>
+                <h5 class="display-10 fw-bold">Lugares Destacables</h5>
+            </div>
+        </div>
+    </div>    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBuov4ZPtVaBEscbvI5d2SFCqmZMwZnzjzcQ&usqp=CAU" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">ISLAS DE LA BAHIA</h5>
+                    <p class="card-text">El archipiélago de Islas de la Bahía, está formado por tres islas mayores que son Utila, Roatán y Guanaja, más las tres pequeñas islas de Barbareta, Morat y Santa Elena, las Islas del Cisne, ubicadas más al noreste y más de 60 cayos, situados a tan sólo 10 y 40 millas de la parte continental de Honduras en el Mar Caribe.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://i.pinimg.com/736x/ca/14/58/ca145864d0fc1462310fa896e1ca10b5--honduras-labyrinth.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">VALLE</h5>
+                    <p class="card-text">El departamento de Valle fue creado el 11 de Julio de 1893, en la Séptima División Politica de Honduras, siendo Presidente de la República el General Domingo Vásquez.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://i.pinimg.com/originals/07/91/cc/0791cc37d50466ed50f9790e04d7350b.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">CHOLUTECA</h5>
+                    <p class="card-text">Choluteca cuenta con el casco histórico mejor preservado de Honduras, el cual es sumamente agradable para recorrer durante las primeras horas de la mañana o por la noche. Su feria patronal es dedicada a la Virgen de la Inmaculada Concepción, y en diciembre de cada año se celebra Ferisur.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj5YTqzMa6eryfCHbRB0ynSBpZt8az6ej0V8Fa5k8_7DIYOdp4Rhnu4PhSSQz89fCTgRo&usqp=CAU" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">COMAYAGUA</h5>
+                    <p class="card-text">Comayagua es un municipio y una ciudad de la República de Honduras, cabecera del departamento de Comayagua. Antigua capital del país y actual capital del departamento homónimo emplazada en el valle también de su mismo nombre, situada en la región central de Honduras.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="data:image/jpeg;base64,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" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">ATLANTIDA</h5>
+                    <p class="card-text">Atlántida presenta dos regiones fisiográficas diferenciadas, una llana y otra montañosa. La primera se extiende a lo largo de la costa caribeña, formando amplias y atractivas playas, y tiene como accidente costero más notable la Bahía de Tela, cuyos extremos son las puntas Sal al oeste, e Izopo al este. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiTTDdYMlqjqLiUzSEIooCK04HxGHxc_4z-ypg7jUAGpFKVJ6INNWVjB2P8jVpDHiTNZY&usqp=CAU" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">FRANCISCO MORAZAN</h5>
+                    <p class="card-text">Francisco Morazán es un departamento de Honduras. Su cabecera departamental es Tegucigalpa. Fue fundada la primera división territorial de 1825 al Estado de Honduras. El departamento de Francisco Morazán es después de Cortés, el segundo departamento más poblado del país.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Cop%C3%A1n_Stela_B.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">COPAN</h5>
+                    <p class="card-text">Copán es un sitio arqueológico de la antigua civilización maya ubicado en el departamento de Copán al occidente de Honduras. Del siglo V al siglo IX fue la capital de un importante reino del periodo Clásico.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://i.pinimg.com/564x/28/9e/c6/289ec6932186bb837ec08904abc190f0.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">EL PARAISO</h5>
+                    <p class="card-text">Danlí es una ciudad y municipio del departamento de El Paraíso, Honduras, además de ser la ciudad más grande e importante del dicho departamento. Actualmente es el cuarto municipio con más población en Honduras.​Es considerada la ciudad de "las colinas y de la cultura".</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer bg-dark text-white" id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Información de contacto</h5>
+                    <p>Dirección: 123 Calle Principal, Choluteca</p>
+                    <p>Teléfono: (504) 8916-4550</p>
+                    <p>Email: danr_martineza@unicah.edu</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Enlaces útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#carouselExampleCaptions">Inicio</a></li>
+                        <li><a href="#sobre">Acerca de</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 Honduras Mi Tierra. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
